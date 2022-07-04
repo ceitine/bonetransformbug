@@ -25,12 +25,12 @@ public partial class MyGame : Sandbox.Game
 		{
 			var first = new TestEntity()
 			{
-				Position = new Vector3( 100, 0, 300 )
+				Position = new Vector3( 100, 0, 200 )
 			};
 
 			var second = new TestEntity()
 			{
-				Position = new Vector3( -100, 0, 300 ),
+				Position = new Vector3( -100, 0, 200 ),
 				SetPos = true
 			};
 		}
